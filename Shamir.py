@@ -1,4 +1,4 @@
-#Algorythme  en python de codage et de décodage du partage de secret de Shamir
+#Algorithme  en python de codage et de décodage du partage de secret de Shamir
 #Par Noam Baum, 16 ans, stagiaire
 
 import random
@@ -7,16 +7,21 @@ print("\n\n")
 def codage(k,n,secret): #avec k le nombre de points nécessaires pour décoder et n le nombre de points partagés
     f= [secret]
     pts = []
+    ptX = 0
     for i in range(k-1):
-        f.append(random.randint(-50,50))
+        f.append(random.randint(-30,30))
     for i in range(n):
-        ptX = random.randint(-20,20)
-        ptY = 0
-        degre = 0
-        for i in f:
-            ptY = ptY + i*(ptX**degre)
-            degre += 1
+        while not(ptX in pts) or ptX != 0:
+            print(ptX)
+            ptX = random.randint(-200,200)
+            ptY = 0
+            degre = 0
+            for i in f:
+                ptY = ptY + i*(ptX**degre)
+                degre += 1
+            break
         pts.append("("+str(ptX)+";"+str(ptY)+")")
+    
     return pts
     
 #decodage
@@ -64,9 +69,10 @@ if action == 1:
     else:
         secret = int(input("Quel est le secret (en nombre) ?\n"))
         print("Voici les différents points à distribuer à chaques personnes :")
+        
         for i in codage(k,n,secret):
             print(i)
-
+        
 else:
     pts = []
     k = int(input("Combien de personnes sont nécessaires pour trouver le secret ?\n"))
