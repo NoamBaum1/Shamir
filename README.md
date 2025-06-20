@@ -8,7 +8,7 @@ This project was fully created during an internship of 2 weeks and was only impl
 
 
 ##  *Shamir.py*
-This project can be used with Python *Shamir .py* which is more user-friendly and use terminal inputs to work.
+This project can be used with Python *Shamir.py* which is more user-friendly and use terminal inputs to work.
 
 
 ## *Shamir_v2.ipynb*
