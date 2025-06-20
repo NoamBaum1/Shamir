@@ -7,11 +7,11 @@ This project was fully created during an internship of 2 weeks and was only impl
 # How to use it
 
 
-##  *Shamir .py*
+##  *Shamir.py*
 This project can be used with Python *Shamir .py* which is more user-friendly and use terminal inputs to work.
 
 
-## *Shamir_v2 .ipynb*
+## *Shamir_v2.ipynb*
 On the other hand *Shamir_v2.ipynb* can be used as a quicker and more professional way to experiment Shamir's Shemes and use *data.txt* to work :
     The program will only work if the data is correctly specified like in this exemple :
     
