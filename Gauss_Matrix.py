@@ -47,7 +47,7 @@ else:
 	if impossibilite == 1:
 		print("Les points fournis ne sont pas adaptés")
 	else:
-		print("Matrice triangularisée")
+		print("Matrice diagonalisée :")
 		afficher(k,Matrice_Gauss)
 		print("La fonction est : f(x) = ",end="")
 		for c in range(k):
