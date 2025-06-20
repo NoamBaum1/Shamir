@@ -4,7 +4,7 @@
 import random
 print("\n\n")
 #codage
-def codage(k,n,secret): #avec k le nombre de points nécessaires pour décoder et n le nombre de points partagés
+def codage(n,k,secret): #avec k le nombre de points nécessaires pour décoder et n le nombre de points partagés
     f= [secret]
     pts = []
     ptX = 0
