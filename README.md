@@ -15,10 +15,7 @@ This project can be used with *Shamir.py* which is more user-friendly and use te
 On the other hand *Shamir.ipynb* can be used as a quicker and more professional way to experiment Shamir's Schemes and use *data.txt* to work.
 The program will only work if the data is correctly specified like in this exemple :
     
-$(x_1;y_1)$<br>  
-$(x_2;y_2)$<br>  
-$(x_3;y_3)$<br>  
-$\dots$
+$(x_1;y_1)$<br>$(x_2;y_2)$<br>$(x_3;y_3)$<br>$\dots$
 
 
 ### 2 functions are available :
