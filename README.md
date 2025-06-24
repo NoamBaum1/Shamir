@@ -1,4 +1,3 @@
-
 # Introduction
 
 The aim of this project is to understand how works [Shamir's Secret-Sharing Scheme](https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing).
@@ -9,17 +8,17 @@ This project was fully created during an internship of 2 weeks and was only impl
 
 
 ##  *Shamir.py*
-This project can be used with Python *Shamir.py* which is more user-friendly and use terminal inputs to work.
+This project can be used with *Shamir.py* which is more user-friendly and use terminal inputs to work.
 
 
 ## *Shamir.ipynb*
 On the other hand *Shamir.ipynb* can be used as a quicker and more professional way to experiment Shamir's Schemes and use *data.txt* to work.
 The program will only work if the data is correctly specified like in this exemple :
     
-   $(x_1;y_1)$
-   $(x_2;y_2)$
-   $(x_3;y_3)$
-    $...$
+   $\\(x_1;y_1)\\
+   (x_2;y_2)\\
+   (x_3;y_3)\\
+    \dots$
 
 ### 2 functions are available :
 
@@ -59,10 +58,11 @@ It was essential to develop this program before implementing it directly in the 
 
 This program use a polynomial characteristic to create new shares using the $x$ coordinates of the initial shares.
 It uses the data in *data.txt* written in an other way than the other :
- $x_1$
- $x_2$
- $x_3$
-  $...$
+ 
+ $\\x_1 \\ 
+ x_2 \\
+ x_3 \\
+  \dots$
 
 The function ``share_refreshing( k )`` creates new shares with the data in *data.txt*
 
