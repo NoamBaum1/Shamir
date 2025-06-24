@@ -57,10 +57,7 @@ It was essential to develop this program before implementing it directly in the 
 This program use a polynomial characteristic to create new shares using the $x$ coordinates of the initial shares.
 It uses the data in *data.txt* written in an other way than the other :
  
-$x_1$<br>  
-$x_2$<br>  
-$x_3$<br>  
-$\dots$
+$x_1$<br>$x_2$<br>$x_3$<br>$\dots$
 
 The function ``share_refreshing( k )`` creates new shares with the data in *data.txt*
 
