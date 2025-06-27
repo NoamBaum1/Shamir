@@ -10,7 +10,8 @@ def codage(n,k,secret): #avec k le nombre de points nécessaires pour décoder e
     ptX = 0
     used_ptX = [0]
     for i in range(k-1):
-        f.append(random.randint(-30,30))
+        while f[len(f)-1]== 0:
+                f.append(random.randint(-30,30))
     for i in range(n):
         while ptX in used_ptX:
             print(ptX)
