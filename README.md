@@ -76,7 +76,7 @@ The variant Finite_Field uses Shamir's Scheme on a finite modular field. It incl
 
  - *Shamir_Finite_Field.ipynb*
  - *Gauss_Matrix_Finite_Field.ipynb*
- - (Soon : *Share_refreshing_Finite_Field.ipynb*)
+ - *Share_refreshing_Finite_Field.ipynb*
 
 This variant is used in real application of secret sharing as infinite field can give information as they are implemented on $\mathbb{Z}$ to facilitate the calculation and so the computer don't omit some decimals.
 
@@ -104,6 +104,14 @@ The scripts uses the same fonction but with some slight modification:
  
  
 	 ``decoder_finite_field( k, modulo )``
+	
+	> Where :
+	> - Where k is the degree $+1$ of the polynomial or the number of points needed
+	> - modulo is the modulo of the field
+ - In *Gauss_Matrix_Finite_Field.ipynb*:
+ 
+ 
+	 ``share_refreshing_finite_field( k, modulo )``
 	
 	> Where :
 	> - Where k is the degree $+1$ of the polynomial or the number of points needed
